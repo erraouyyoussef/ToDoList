@@ -100,9 +100,22 @@ body {
     cursor: pointer;
     transition: 0.5s;
     letter-spacing: 0.6px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container ul li:hover {
     background-color: #ffffffcb;
     transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 80%;
+    }
+
+    .container ul li {
+        padding: 5px 8px;
+        font-size: smaller;
+    }
 }
