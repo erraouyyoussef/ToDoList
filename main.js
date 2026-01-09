@@ -56,7 +56,7 @@ function addTask() {
         alert("Type your task first");
     }
     else if (task.length > 30) {
-        alert("Task should be less than 10 letters");
+        alert("Task should be less than 30 letters");
     }
     else {
         let li = document.createElement('li');
@@ -99,6 +99,7 @@ function showData() {
     ul.innerHTML = localStorage.getItem('data') || '';
 }
 showData();
+
 
 
 
