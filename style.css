@@ -165,15 +165,15 @@ body {
     .container ul li span {
         position: absolute;
         right: 6px;
-        top: 4px;
+        top: 2.5px;
     }
 
     .container ul li.checked::before {
         content: "✔";
         position: absolute;
         left: 6px;
-        top: -3px;
-        font-size: 20px;
+        top: 2px;
+        font-size: 12px;
     }
 
     .container form button {
